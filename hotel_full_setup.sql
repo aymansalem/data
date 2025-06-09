@@ -19,7 +19,7 @@ CREATE TABLE public.hbwz_nat (
     country VARCHAR(5),
     available_rooms INT,
     room_sold INT,
-    occupancy INT,
+    occupancy FLOAT,
     adr NUMERIC(10,2),
     revenue NUMERIC(12,2),
     market_segment VARCHAR(50),
